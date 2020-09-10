@@ -19,7 +19,13 @@
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick-theme.css">
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -27,7 +33,147 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<div>hej med dig</div>
+<nav class="navigation">
+
+    <div class="menu_btn">
+
+    <a class="home btn name" href="#"> fabrikken </a>
+
+    <a class="men btn" href="#">Mænd </a>
+
+    <a class="women btn" href="#"> Kvinder </a>
+
+    <a class="brands btn" href="#"> Brands </a>
+
+    </div>
+
+    <form class="search_form" action="#">
+
+        <label for="Search"><i class="fas fa-search"></i></label>
+        <input type="text" id="Search" name="Search" placeholder="SEARCH">
+
+    </form>
+</nav>
+
+
+
+
+
+<header class="header">
+
+    <div class="slider slider_header">
+        <div class="header_text header_img_1"> <h2 class="img_btn">back to work</h2> </div>
+        <div class="header_text header_img_2"> <h2 class="img_btn"> fit for fight </h2> </div>
+        <div class="header_text header_img_3"> <h2 class="img_btn">exploring</h2> </div>
+        <div class="header_text header_img_4"> <h2 class="img_btn">ready to party</h2> </div>
+        ...
+    </div>
+
+</header>
+
+
+<main class="textbox_about">
+
+        <h1> Mauris semper </h1>
+    <p> Donec lobortis tortor a est auctor,
+    vitae vestibulum magna luctus. Duis
+    scelerisque maximus efficitur. Quisque
+    non ante nec massa suscipit tincidunt
+    luctus eu augue. Proin vel aliquam neque,
+    in finibus magna. Nulla nisl libero, auctor
+    nec venenatis at, finibus sed elit. Cras
+    accumsan eget justo quis commodo. Mauris
+    purus nulla, convallis et porttitor sit amet,
+    mollis id erat. Sed feugiat placerat elit
+    ut pulvinar. In hac habitasse platea dictumst.
+    Curabitur varius non est ac auctor. <br><br>
+
+    Integer gravida, augue ac commodo aliquam,
+    turpis ligula tincidunt tortor, sit amet posuere
+    sem libero ornare turpis. Sed placerat sollicitudin
+    ante vel tincidunt. In et erat hendrerit,
+    porttitor tellus eget, venenatis turpis. Vivamus finibus,
+    massa id facilisis porta, est tellus euismod diam,
+    eget consectetur felis justo at ex. Vivamus sit amet
+    felis euismod erat consequat vehicula euismod eget urna.
+    Phasellus egestas imperdiet velit. Aliquam ut arcu bibendum,
+    imperdiet orci non, auctor nunc. Etiam in tortor urna.
+    Vivamus non dui nec sapien aliquam gravida.
+    </p>
+
+</main>
+
+
+<div class="color">
+    <footer class="footer">
+
+        <div class="info">
+            <h5> INFO </h5> <br>
+
+            <div class="f_text"> Kontakt os </div> <br>
+            <div class="f_text"> Om FABRIKKEN</div> <br>
+            <div class="f_text"> Læs vores blog</div> <br>
+            <div class="f_text"> Betingelser for virksomheder </div> <br>
+            <div class="f_text"> Handelsbetingelser </div> <br>
+            <div class="f_text"> Privatlivspolitik </div> <br>
+            <div class="f_text">  Cookiepolitik </div>
+        </div>
+
+
+
+        <div class="adress">
+            <h5> FABRIKKEN A/S </h5> <br>
+
+            <div> Gl. Kongevej 1, 4.tv.</div><br>
+            <div> 1610 København V</div><br>
+            <div> Tlf: +45 71 74 71 70</div><br>
+            <div> Mail: info@medidyne.dk</div>
+        </div>
+
+        <div class="some_container">
+            <br>
+            <div> <a href="#"> <i class="some fab fa-facebook-square"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-instagram"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-linkedin"></i> </a></div>
+
+        </div>
+
+    </footer>
+
+    <div class="copyright"> <i class="far fa-copyright"></i> Nanna Kindt 2020 </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="slick-master2/slick/slick.min.js"></script>
+<script src="slick-master2/slick/slick.js"></script>
+
+<script>
+
+    $(function () {
+
+        $(document).ready(function(){
+            $('.slider_header').slick({
+                autoplay:true,
+                autoplaySpeed: 3000
+            });
+
+        });
+    });
+
+        </script>
 
 </body>
 </html>
