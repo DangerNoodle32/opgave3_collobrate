@@ -3,6 +3,7 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
+    letter-spacing: 1.5px;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
@@ -82,12 +83,12 @@ a {
 }
 
 .btn:hover {
-    color: lawngreen;
+    text-decoration: underline;
 }
 
 .name:hover {
     color: white;
-    text-decoration-line: underline;
+    text-decoration-line:underline;
     text-decoration-style: wavy;
 }
 
@@ -95,15 +96,15 @@ a {
 
 
 
-
+/*slides */
 
 #header {
-        display: flex;
-        justify-content: space-between;
-        padding: 17px 200px;
-        font-weight: bolder;
-        font-size: 2em;
-         text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 200px;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
 }
 
 
@@ -117,7 +118,7 @@ a {
 }
 
 .header_img_1, .header_img_2, .header_img_3, .header_img_4 {
-    width: 80%;
+    width: 100%;
     text-align: center;
     height: 790px;
     color: white;
@@ -177,7 +178,7 @@ h1 {
 
 
 
-
+/* footer */
 
 .footer {
     display: flex;
@@ -205,7 +206,7 @@ h1 {
 }
 
 .some:hover {
-    color: lightsteelblue;
+    color: steelblue;
 }
 
 .info {
@@ -256,4 +257,106 @@ h1 {
     width: 100%;
     background-color: #313131;
 
+}
+
+.outlet:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+.pay {
+    color: white;
+    font-size: 1.3rem;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ------------ underside ------------ */
+
+
+/* header'en */
+.brands_header {
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    font-size: 3em;
+    color: steelblue;
+    text-shadow: 2px 2px grey;
+
+}
+
+
+
+
+/* shop by brand - overskrifterne */
+
+
+.shop_by {
+    text-transform: capitalize;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.shop_by:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* streg på siden til opdeling */
+
+hr {
+    width:66%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top:0;
+    border-bottom: 1px solid darkgray;
+    border-left:0;
+    border-right: 0;
+}
+
+
+
+/* slides til produkter */
+.slider_header {
+    background-color: whitesmoke;
+    width: 66%;
+    margin: auto;
+}
+
+.slider_item img {
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+/* knapper til produkter */
+
+.brand_btns {
+    margin: 0 auto;
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+}
+
+.buy_btn {
+    color: #313131; !important;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.buy_btn:hover {
+    color: steelblue;
+    text-transform: uppercase;
 }
