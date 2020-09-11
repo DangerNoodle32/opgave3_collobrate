@@ -118,7 +118,7 @@ a {
 }
 
 .header_img_1, .header_img_2, .header_img_3, .header_img_4 {
-    width: 100%;
+    width: 80%;
     text-align: center;
     height: 790px;
     color: white;
@@ -126,22 +126,22 @@ a {
 }
 
 .header_img_1 {
-    background-image:url("../images/business-1149630_1280.jpg");
+    background-image:url("../images/business-1149630_1280-kopi.jpg");
     background-size: cover;
 }
 
 .header_img_2 {
-    background-image:url("../images/sport-2250970_1280.jpg");
+    background-image:url("../images/sport-2250970_1280-kopi.jpg");
     background-size: cover;
 }
 
 .header_img_3 {
-    background-image:url("../images/car-690275_1280.jpg");
+    background-image:url("../images/car-690275_1280-kopi.jpg");
     background-size: cover;
 }
 
 .header_img_4 {
-    background-image:url("../images/adult-1846436_1280.jpg");
+    background-image:url("../images/adult-1846436_1280-kopi.jpg");
     background-size: cover;
 }
 
@@ -276,16 +276,18 @@ h1 {
 /* ------------ underside ------------ */
 
 
+
 /* header'en */
 .brands_header {
-    background-color: lightgrey;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 100%;
-    font-size: 3em;
-    color: steelblue;
-    text-shadow: 2px 2px grey;
+    display: flex;
+    margin-top: 34px;
+
+}
+
+.header_image_brands {
+    width: 300%;
+    display: flex;
+    justify-content: space-around;
 
 }
 
@@ -312,8 +314,8 @@ h1 {
 
 /* streg på siden til opdeling */
 
-hr {
-    width:66%;
+.line {
+    width:55%;
     margin-top: 50px;
     margin-bottom: 50px;
     border-top:0;
@@ -360,3 +362,177 @@ hr {
     color: steelblue;
     text-transform: uppercase;
 }
+
+
+
+/* ------------ underside 2 ------------ */
+
+.product_container{
+    width: 100%;
+    height: 600px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.product_img {
+    background-size: cover;
+    width: 60%;
+    height: 560px;
+    margin-left: 50px;
+}
+
+
+.product_text_box {
+    margin-right: 300px;
+    margin-top: 55px;
+
+}
+
+
+.price_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* farvemuligheder */
+
+.color_options_container {
+    display: flex;
+
+}
+
+.color_img {
+    width: 78px;
+    height: auto;
+    border: 0.5px solid lightgrey;
+    background-size: cover;
+    margin-right: 3px;
+    opacity: 0.8;
+}
+
+.color_img:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 0.5px solid silver;
+}
+
+
+/* størrelser */
+
+.size_options_container {
+    display: flex;
+
+}
+
+.size_box {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid lightgrey;
+    background-size: cover;
+    margin-right: 3px;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 3.5px;
+    font-weight: bolder;
+}
+
+.size_box:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 0.5px solid silver;
+    background-color: #313131;
+    color: white;
+}
+
+.soldout:hover {
+    opacity: 0.5;
+    background-color: white; !important;
+    color: #313131; !important;
+}
+
+/* indkøbskurven */
+
+.cart_btn_box {
+    width: 250px;
+    height: 45px;
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 33px;
+    border-radius: 7px;
+}
+
+.cart_btn_box:hover {
+    background-color: steelblue;
+    font-weight: bold;
+}
+
+/* details container */
+
+.details_container {
+    margin-top: 55px;
+    height: 600px;
+}
+
+.details_text_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text {
+    margin: 55px;
+
+}
+
+.product_img2 {
+    min-width: 30%;
+    max-width: 30%;
+    height: 355px;
+    margin-right: 0; !important;
+    padding-right: 20px;
+    opacity: 0.7;
+}
+
+
+.foldout {
+    display: none;
+}
+
+.details_foldout1 {
+    display: block;
+}
+
+
+
+
+/* mere som dette */
+
+.more_options_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.more_text {
+    text-align: center;
+}
+
+.more_img {
+    width: 19%;
+    height: auto;
+    background-size: cover;
+    margin-right: 3px;
+    opacity: 0.8;
+}
+
+.more_img:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 0.5px solid silver;
+}
+

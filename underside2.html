@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Fabrikken.dk</title>
+    <title>FABRIKKEN</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick-theme.css">
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,19 +34,288 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+
+
+
+<nav class="navigation">
+
+    <div class="menu_btn">
+
+        <a class="home btn name" href="index.html"> fabrikken </a>
+
+        <a class="men btn" href="#">Mænd </a>
+
+        <a class="women btn" href="#"> Kvinder </a>
+
+        <a class="brands btn" href="underside1.html"> Brands </a>
+
+        <a class="outlet btn" href="#"> Outlet </a>
+
+    </div>
+
+    <form class="search_form" action="#">
+
+        <label for="Search"><i class="fas fa-search"></i></label>
+        <input type="text" id="Search" name="Search" placeholder="SEARCH">
+
+    </form>
+</nav>
+
+
+
+
+<section class="product_container container">
+
+    <div class="product_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+
+    <div class="product_text_box">
+
+        <h1> NIKE AIR BALANCE </h1>
+
+        <p class="product_description">Praesent fermentum, elit vel imperdiet.</p>
+
+        <br><br>
+
+        <p class="price_text"> 899,00 DKK </p>
+
+        <br><br>
+
+        <p class="color_text"> Vælg farve </p>
+        <br>
+        <div class="color_options_container">
+
+
+            <div class="color_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+            <div class="color_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+            <div class="color_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+
+        </div>
+
+        <br><br>
+
+        <p class="size_text"> Vælg størrelse </p>
+        <br>
+        <div class="size_options_container">
+
+
+            <div class="size_box"> <p>5</p> </div>
+            <div class="size_box soldout"> <p>6</p> </div>
+            <div class="size_box"> <p>7</p> </div>
+            <div class="size_box"> <p>8</p> </div>
+            <div class="size_box  soldout"> <p>9</p> </div>
+            <div class="size_box"> <p>10</p> </div>
+            <div class="size_box"> <p>11</p> </div>
+
+
+        </div>
+
+        <br><br>
+
+        <div class="cart_btn_box"> <i class="fas fa-shopping-bag"></i> Læg i indkøbskurv </div>
+
+
+    </div>
+
+
+</section>
+
+
+<section class="details_container">
+
+    <div class="details_text_container">
+
+
+
+        <div class="about_text1 text">
+
+            <h3  class="details_btn1">Produktbeskrivelse  </h3>
+            <br><br>
+            <div class="details_foldout1 foldout"> Donec lobortis tortor a est auctor,
+                vitae vestibulum magna luctus. Duis
+                scelerisque maximus efficitur. Quisque
+                non ante nec massa suscipit tincidunt
+                luctus eu augue. Proin vel aliquam neque,
+                in finibus magna. Nulla nisl libero, auctor
+                nec venenatis at, finibus sed elit. Cras
+                accumsan eget justo quis commodo. Mauris
+                purus nulla, convallis et porttitor sit amet,
+                mollis id erat. Sed feugiat placerat elit
+                ut pulvinar. In hac habitasse platea dictumst.
+                Curabitur varius non est ac auctor. </div>
+
+        </div>
+
+
+        <div class="about_text2 text">
+
+            <h3  class="details_btn2"> Vaskeanvising </h3>
+            <br><br>
+            <div class="details_foldout2 foldout"> Donec lobortis tortor a est auctor,
+                vitae vestibulum magna luctus. Duis
+                scelerisque maximus efficitur. Quisque
+                non ante nec massa suscipit tincidunt
+                luctus eu augue. Proin vel aliquam neque,
+                in finibus magna. Nulla nisl libero, auctor
+                nec venenatis at, finibus sed elit. Cras
+                accumsan eget justo quis commodo. Mauris
+                purus nulla, convallis et porttitor sit amet,
+                mollis id erat. Sed feugiat placerat elit
+                ut pulvinar. In hac habitasse platea dictumst.
+                Curabitur varius non est ac auctor. </div>
+
+        </div>
+
+
+        <div class="about_text3 text">
+
+            <h3 class="details_btn3">Anmeldelser </h3>
+            <br><br>
+            <div class="details_foldout3 foldout rates">
+
+                Donec lobortis tortor a est auctor,
+                vitae vestibulum magna luctus. Duis
+                scelerisque maximus efficitur. Quisque
+                non ante nec massa suscipit tincidunt
+                luctus eu augue. Proin vel aliquam neque,
+                in finibus magna. Nulla nisl libero, auctor
+                nec venenatis at, finibus sed elit. Cras
+                accumsan eget justo quis commodo. Mauris
+                purus nulla, convallis et porttitor sit amet,
+                mollis id erat. Sed feugiat placerat elit
+                ut pulvinar. In hac habitasse platea dictumst.
+                Curabitur varius non est ac auctor.
+
+            </div>
+        </div>
+
+
+
+        <div class="product_img2"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+
+
+
+    </div>
+
+
+
+
+</section>
+
+
+<section class="more_container">
+
+    <h3 class="more_text"> Lignende produkter </h3>
+    <br>
+    <div class="more_options_container">
+
+
+        <div class="more_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+        <div class="more_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+        <div class="more_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+        <div class="more_img"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
+
+    </div>
+
+</section>
+
+
+
+<div class="color">
+    <footer class="footer">
+
+        <div class="info">
+            <h5> INFO </h5> <br>
+
+            <div class="f_text"> Kontakt os </div> <br>
+            <div class="f_text"> Om FABRIKKEN</div> <br>
+            <div class="f_text"> Læs vores blog</div> <br>
+            <div class="f_text"> Betingelser for virksomheder </div> <br>
+            <div class="f_text"> Handelsbetingelser </div> <br>
+            <div class="f_text"> Privatlivspolitik </div> <br>
+            <div class="f_text">  Cookiepolitik </div>
+        </div>
+
+
+
+        <div class="adress">
+            <h5> FABRIKKEN A/S </h5> <br>
+
+            <div> Gl. Kongevej 1, 4.tv.</div><br>
+            <div> 1610 København V</div><br>
+            <div> Tlf: +45 71 74 71 70</div><br>
+            <div> Mail: info@medidyne.dk</div>
+        </div>
+
+        <div class="some_container">
+            <br>
+            <div> <a href="#"> <i class="some fab fa-facebook-square"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-instagram"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-linkedin"></i> </a></div>
+
+        </div>
+
+    </footer>
+
+    <div class="pay">
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-apple-pay"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-amazon-pay"></i>
+    </div>
+
+    <div class="copyright"> <i class="far fa-copyright"></i> Nanna Kindt 2020 </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
+
     $(function () {
+
+
+
+        $(".details_btn2").mouseover(function () {
+            $(".details_foldout1").hide(0);
+            $(".details_foldout2").show(0);
+        });
+
+        $(".details_btn2").mouseout(function () {
+            $(".details_foldout2").hide(0);
+            $(".details_foldout1").show(0);
+        });
+
+
+
+
+        $(".details_btn3").mouseover(function () {
+            $(".details_foldout1").hide(0);
+            $(".details_foldout3").show(0);
+        });
+
+        $(".details_btn3").mouseout(function () {
+            $(".details_foldout3").hide(0);
+            $(".details_foldout1").show(0);
+        });
+
 
 
     });
 
-
 </script>
 
 </body>
-</html>
+
