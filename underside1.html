@@ -1,4 +1,5 @@
 <!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
 <!DOCTYPE html>
 
 <!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
@@ -24,6 +25,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-master2/slick/slick-theme.css">
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,19 +35,271 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<nav class="navigation">
+
+    <div class="menu_btn">
+
+        <a class="home btn name" href="#"> fabrikken </a>
+
+        <a class="men btn" href="#">Mænd </a>
+
+        <a class="women btn" href="#"> Kvinder </a>
+
+        <a class="brands btn" href="#"> Brands </a>
+
+        <a class="outlet btn" href="#"> Outlet </a>
+
+    </div>
+
+    <form class="search_form" action="#">
+
+        <label for="Search"><i class="fas fa-search"></i></label>
+        <input type="text" id="Search" name="Search" placeholder="SEARCH">
+
+    </form>
+</nav>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script>
-    $(function () {
 
 
-    });
+<header>
+
+    <h1 class="brands_header"> shop your favorite brand </h1>
+
+</header>
+
+<section>
+
+    <div class="shop_by"> <p> shop nike </p> </div>
 
 
-</script>
+    <div class="slider slider_header">
+        <div class="slider_item"> <img alt="Nike rygsæk" src="images/nike_backpack-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike Hoodie" src="images/nike_hoodie-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike set" src="images/nike_set-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts-kopi.png"> </div>
+
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts2-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneakers-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneaks-kopi.png"> </div>
+        <div class="slider_item"> <img alt="Nike tshirt" src="images/nike_tee-kopi.png"> </div>
+
+        <div class="slider_item"> <img alt="nike shorts" src="images/nike_shorts-kopi.png"> </div>
+        <div class="slider_item"> <img alt="nike set" src="images/nike_set-kopi.png"> </div>
+        <div class="slider_item"> <img alt="nike hoodie" src="images/nike_hoodie-kopi.png"> </div>
+        <div class="slider_item"> <img alt="nike sneakers" src="images/nike_sneaks-kopi.png"> </div>
+    </div>
+
+    <div class="brand_btns">
+        <br>
+        <a class="buy_btn" href="#"> køb nu </a>
+
+    </div>
+
+
+</section>
+
+<hr>
+
+<section>
+
+    <div class="shop_by"> <p> shop adidas </p> </div>
+
+
+    <div class="slider slider_header">
+        <div class="slider_item"> <img alt="Nike rygsæk" src="images/nike_backpack.png"> </div>
+        <div class="slider_item"> <img alt="Nike Hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="Nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts.png"> </div>
+
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts2.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneakers.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneaks.png"> </div>
+        <div class="slider_item"> <img alt="Nike tshirt" src="images/nike_tee.png"> </div>
+
+        <div class="slider_item"> <img alt="nike shorts" src="images/nike_shorts.png"> </div>
+        <div class="slider_item"> <img alt="nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="nike hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="nike sneakers" src="images/nike_sneaks.png"> </div>
+    </div>
+
+    <div class="brand_btns">
+        <br>
+        <a class="buy_btn" href="#"> køb nu </a>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section>
+
+    <div class="shop_by"> <p> shop puma </p> </div>
+
+
+    <div class="slider slider_header">
+        <div class="slider_item"> <img alt="Nike rygsæk" src="images/nike_backpack.png"> </div>
+        <div class="slider_item"> <img alt="Nike Hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="Nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts.png"> </div>
+
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts2.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneakers.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneaks.png"> </div>
+        <div class="slider_item"> <img alt="Nike tshirt" src="images/nike_tee.png"> </div>
+
+        <div class="slider_item"> <img alt="nike shorts" src="images/nike_shorts.png"> </div>
+        <div class="slider_item"> <img alt="nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="nike hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="nike sneakers" src="images/nike_sneaks.png"> </div>
+    </div>
+
+    <div class="brand_btns">
+        <br>
+        <a class="buy_btn" href="#"> køb nu </a>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section>
+
+    <div class="shop_by"> <p> shop hummel </p> </div>
+
+
+    <div class="slider slider_header">
+        <div class="slider_item">  <img alt="Nike rygsæk" src="images/nike_backpack.png"> </div>
+        <div class="slider_item"> <img alt="Nike Hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="Nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts.png"> </div>
+
+        <div class="slider_item"> <img alt="Nike shorts" src="images/nike_shorts2.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneakers.png"> </div>
+        <div class="slider_item"> <img alt="Nike sneakers" src="images/nike_sneaks.png"> </div>
+        <div class="slider_item"> <img alt="Nike tshirt" src="images/nike_tee.png"> </div>
+
+        <div class="slider_item"> <img alt="nike shorts" src="images/nike_shorts.png"> </div>
+        <div class="slider_item"> <img alt="nike set" src="images/nike_set.png"> </div>
+        <div class="slider_item"> <img alt="nike hoodie" src="images/nike_hoodie.png"> </div>
+        <div class="slider_item"> <img alt="nike sneakers" src="images/nike_sneaks.png"> </div>
+    </div>
+
+    <div class="brand_btns">
+        <br>
+        <a class="buy_btn" href="#"> køb nu </a>
+
+    </div>
+
+</section>
+
+<hr>
+
+
+<div class="color">
+    <footer class="footer">
+
+        <div class="info">
+            <h5> INFO </h5> <br>
+
+            <div class="f_text"> Kontakt os </div> <br>
+            <div class="f_text"> Om FABRIKKEN</div> <br>
+            <div class="f_text"> Læs vores blog</div> <br>
+            <div class="f_text"> Betingelser for virksomheder </div> <br>
+            <div class="f_text"> Handelsbetingelser </div> <br>
+            <div class="f_text"> Privatlivspolitik </div> <br>
+            <div class="f_text">  Cookiepolitik </div>
+        </div>
+
+
+
+        <div class="adress">
+            <h5> FABRIKKEN A/S </h5> <br>
+
+            <div> Gl. Kongevej 1, 4.tv.</div><br>
+            <div> 1610 København V</div><br>
+            <div> Tlf: +45 71 74 71 70</div><br>
+            <div> Mail: info@medidyne.dk</div>
+        </div>
+
+        <div class="some_container">
+            <br>
+            <div> <a href="#"> <i class="some fab fa-facebook-square"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-instagram"></i> </a> </div>
+            <div> <a href="#"> <i class="some fab fa-linkedin"></i> </a></div>
+
+        </div>
+
+    </footer>
+
+    <div class="pay">
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-apple-pay"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-amazon-pay"></i>
+    </div>
+
+    <div class="copyright"> <i class="far fa-copyright"></i> Nanna Kindt 2020 </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="slick-master2/slick/slick.min.js"></script>
+    <script src="slick-master2/slick/slick.js"></script>
+
+
+    <script>
+        $(function () {
+
+            $(document).ready(function(){
+                $('.slider_header').slick({
+                    autoplay:true,
+                    autoplaySpeed: 3000,
+                    arrows: true,
+                    dots: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3
+                            }
+                        },
+                        {
+                            breakpoint: 750,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+
+            });
+
+        });
+
+
+    </script>
 
 </body>
 </html>
