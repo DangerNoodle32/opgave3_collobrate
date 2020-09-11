@@ -124,55 +124,21 @@
 
     <div class="details_text_container">
 
+        <div class="about_product">
 
-
-        <div class="about_text1 text">
-
-            <h3  class="details_btn1">Produktbeskrivelse  </h3>
-            <br><br>
-            <div class="details_foldout1 foldout"> Donec lobortis tortor a est auctor,
-                vitae vestibulum magna luctus. Duis
-                scelerisque maximus efficitur. Quisque
-                non ante nec massa suscipit tincidunt
-                luctus eu augue. Proin vel aliquam neque,
-                in finibus magna. Nulla nisl libero, auctor
-                nec venenatis at, finibus sed elit. Cras
-                accumsan eget justo quis commodo. Mauris
-                purus nulla, convallis et porttitor sit amet,
-                mollis id erat. Sed feugiat placerat elit
-                ut pulvinar. In hac habitasse platea dictumst.
-                Curabitur varius non est ac auctor. </div>
+            <h3 class="details_btn1">Produktbeskrivelse</h3>
+            <h3 class="details_btn2">Vaskeanvising</h3>
+            <h3 class="details_btn3">Anmeldelser</h3>
 
         </div>
 
 
-        <div class="about_text2 text">
 
-            <h3  class="details_btn2"> Vaskeanvising </h3>
-            <br><br>
-            <div class="details_foldout2 foldout"> Donec lobortis tortor a est auctor,
-                vitae vestibulum magna luctus. Duis
-                scelerisque maximus efficitur. Quisque
-                non ante nec massa suscipit tincidunt
-                luctus eu augue. Proin vel aliquam neque,
-                in finibus magna. Nulla nisl libero, auctor
-                nec venenatis at, finibus sed elit. Cras
-                accumsan eget justo quis commodo. Mauris
-                purus nulla, convallis et porttitor sit amet,
-                mollis id erat. Sed feugiat placerat elit
-                ut pulvinar. In hac habitasse platea dictumst.
-                Curabitur varius non est ac auctor. </div>
+        <div class="product_info">
 
-        </div>
+            <div>
 
-
-        <div class="about_text3 text">
-
-            <h3 class="details_btn3">Anmeldelser </h3>
-            <br><br>
-            <div class="details_foldout3 foldout rates">
-
-                Donec lobortis tortor a est auctor,
+                <div class="details_foldout1 foldout"> Donec lobortis tortor a est auctor,
                 vitae vestibulum magna luctus. Duis
                 scelerisque maximus efficitur. Quisque
                 non ante nec massa suscipit tincidunt
@@ -184,20 +150,48 @@
                 mollis id erat. Sed feugiat placerat elit
                 ut pulvinar. In hac habitasse platea dictumst.
                 Curabitur varius non est ac auctor.
+                </div>
 
             </div>
+
+            <div>
+
+                <div class="details_foldout2 foldout"> Donec lobortis tortor a est auctor,
+                vitae vestibulum magna luctus. Duis
+                scelerisque maximus efficitur. Quisque
+                non ante nec massa suscipit tincidunt
+                luctus eu augue. Proin vel aliquam neque,
+                in finibus magna. Nulla nisl libero, auctor
+                nec venenatis at, finibus sed elit. Cras
+                accumsan eget justo quis commodo. Mauris
+                purus nulla, convallis et porttitor sit amet,
+                mollis id erat. Sed feugiat placerat elit
+                ut pulvinar. In hac habitasse platea dictumst.
+                Curabitur varius non ebla bla bla.
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="details_foldout3 foldout rates">
+                Donec lobortis tortor a est auctor,
+                vitae vestibulum magna luctus. Duis
+                scelerisque maximus efficitur. Quisque
+                non ante nec massa suscipit tincidunt
+                luctus eu augue. Proin vel aliquam neque,
+                in finibus magna. Nulla nisl libero, auctor
+                nec venenatis at, finibus sed elit. Cras
+                accumsan eget justo quis commodo. Mauris
+                purus nulla, convallis et porttitor sit amet,
+                kmflmlamflmflmldmflmslfjls
+                </div>
+
+            </div>
+
         </div>
 
-
-
-        <div class="product_img2"> <img alt="Nike sneakers" src="images/nike_product-kopi.jpg"> </div>
-
-
-
     </div>
-
-
-
 
 </section>
 
@@ -286,30 +280,25 @@
 
     $(function () {
 
-
-
-        $(".details_btn2").mouseover(function () {
-            $(".details_foldout1").hide(0);
-            $(".details_foldout2").show(0);
-        });
-
-        $(".details_btn2").mouseout(function () {
+        $(".details_btn1").click(function () {
+            $(".details_foldout3").hide(0);
             $(".details_foldout2").hide(0);
             $(".details_foldout1").show(0);
         });
 
-
-
-
-        $(".details_btn3").mouseover(function () {
+        $(".details_btn2").click(function () {
             $(".details_foldout1").hide(0);
+            $(".details_foldout3").hide(0);
+            $(".details_foldout2").show(0);
+        });
+
+        $(".details_btn3").click(function () {
+            $(".details_foldout1").hide(0);
+            $(".details_foldout2").hide(0);
             $(".details_foldout3").show(0);
         });
 
-        $(".details_btn3").mouseout(function () {
-            $(".details_foldout3").hide(0);
-            $(".details_foldout1").show(0);
-        });
+
 
 
 
