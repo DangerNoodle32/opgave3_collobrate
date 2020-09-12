@@ -378,9 +378,8 @@ h1 {
 
 .product_img {
     background-size: cover;
-    width: 40%;
-    height: 560px;
-    margin-left: 50px;
+    width: 30%;
+    margin-left: 10%;
 }
 
 
@@ -488,11 +487,11 @@ h1 {
 
 .about_product{
     display: flex;
-    margin-left: 55px;
+    margin-left: 10%;
 }
 
 .product_info{
-    margin-left: 55px;
+    margin-left: 10%;
     border: 1px solid #313131;
     padding: 20px;
     width: 60%;
